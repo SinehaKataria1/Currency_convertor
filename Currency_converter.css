@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(137, 68, 201);
+}
+#text-field{
+  border-bottom: 2px solid rgb(137, 68, 201);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgb(255, 255, 255);
+}
+.from_div{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(18, 18, 18);
+  
+}
+#From{
+  border: none;
+  
+}
+#To{
+  border: none;
+}
+form{
+  border-radius: 10px;
+}
+input[type="text"] {
+  border: none;  
+  outline: none; 
+}
+
+input[type="text"]:focus {
+  border-bottom: 2px solid rgb(137, 68, 201);
+  background-color: white;
+}
+ 
+#Result{
+  background-color: rgb(201, 182, 219);
+  color: black;
+}
